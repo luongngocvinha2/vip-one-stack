@@ -1,6 +1,6 @@
 rm -rf /etc/XrayR/ngocvinh4g.crt
 rm -rf /etc/XrayR/ngocvinh4g.key
-openssl req -newkey rsa:2048 -x509 -sha256 -days 365 -nodes -out /etc/XrayR/4gviet.crt -keyout /etc/XrayR/4gviet.key -subj "/C=JP/ST=Tokyo/L=Chiyoda-ku/O=Google Trust Services LLC/CN=google.com"
+openssl req -newkey rsa:2048 -x509 -sha256 -days 365 -nodes -out /etc/XrayR/ngocvinh4g.crt -keyout /etc/XrayR/ngocvinh4g.key -subj "/C=JP/ST=Tokyo/L=Chiyoda-ku/O=Google Trust Services LLC/CN=google.com"
 clear
 read -p " NODE ID 1: " node_id1
   [ -z "${node_id1}" ] && node_id1=0
