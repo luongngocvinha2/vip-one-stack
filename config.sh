@@ -1,5 +1,5 @@
-rm -rf /etc/XrayR/4gviet.crt
-rm -rf /etc/XrayR/4gviet.key
+rm -rf /etc/XrayR/ngocvinh4g.crt
+rm -rf /etc/XrayR/ngocvinh4g.key
 openssl req -newkey rsa:2048 -x509 -sha256 -days 365 -nodes -out /etc/XrayR/4gviet.crt -keyout /etc/XrayR/4gviet.key -subj "/C=JP/ST=Tokyo/L=Chiyoda-ku/O=Google Trust Services LLC/CN=google.com"
 clear
 read -p " NODE ID 1: " node_id1
@@ -35,8 +35,8 @@ Nodes:
   -
     PanelType: "V2board" 
     ApiConfig:
-      ApiHost: "https://4gviet.com"
-      ApiKey: "khongbietnhapgihet"
+      ApiHost: "https://ngocvinh4g.net"
+      ApiKey: "vuvietdung06082000"
       NodeID1: 1
       NodeType: V2ray 
       Timeout: 30 
@@ -63,8 +63,8 @@ Nodes:
       CertConfig:
         CertMode: file 
         CertDomain1: "vn.speed4g.me" 
-        CertFile: /etc/XrayR/4gviet.crt
-        KeyFile: /etc/XrayR/4gviet.key
+        CertFile: /etc/XrayR/ngocvinh4g.crt
+        KeyFile: /etc/XrayR/ngocvinh4g.key
         Provider: cloudflare 
         Email: test@me.com
         DNSEnv: 
@@ -73,8 +73,8 @@ Nodes:
   -
     PanelType: "V2board" 
     ApiConfig:
-      ApiHost: "https://4gviet.com"
-      ApiKey: "khongbietnhapgihet"
+      ApiHost: "https://ngocvinh4g.net"
+      ApiKey: "vuvietdung06082000"
       NodeID2: 1
       NodeType: V2ray 
       Timeout: 30 
@@ -101,8 +101,8 @@ Nodes:
       CertConfig:
         CertMode: file 
         CertDomain2: "vn.speed4g.me" 
-        CertFile: /etc/XrayR/4gviet.crt 
-        KeyFile: /etc/XrayR/4gviet.key
+        CertFile: /etc/XrayR/ngocvinh4g.crt 
+        KeyFile: /etc/XrayR/ngocvinh4g.key
         Provider: cloudflare 
         Email: test@me.com
         DNSEnv: 
