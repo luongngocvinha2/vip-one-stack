@@ -1,4 +1,4 @@
 # RUN
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/Khiemkhiem123/script/main/run.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/luongngocvinha2/vip-one-stack/main/run.sh)
 ```
